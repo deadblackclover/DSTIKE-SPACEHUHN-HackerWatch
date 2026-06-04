@@ -5,9 +5,11 @@
 #include <Wire.h>
 #include <WiFiUdp.h>
 
-// ========== WI-FI SETTINGS ==========
-const char* ssid     = "SSID";
-const char* password = "PASSWORD";
+#define SCREEN_WIDTH    128
+#define SCREEN_HEIGHT   64
+#define I2C_ADDR        0x3C
+#define I2C_SDA         5
+#define I2C_SCL         4
 
 SH1106Wire display = SH1106Wire(I2C_ADDR, I2C_SDA, I2C_SCL);
 
