@@ -11,6 +11,10 @@
 #define I2C_SDA         5
 #define I2C_SCL         4
 
+#define BUTTON_UP 12
+#define BUTTON_DOWN 13
+#define BUTTON_A 14
+
 SH1106Wire display = SH1106Wire(I2C_ADDR, I2C_SDA, I2C_SCL);
 
 WiFiUDP ntpUDP;

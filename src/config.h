@@ -8,5 +8,6 @@ const char* password = "PASSWORD";
 #define NTP_UPDATE_MIN  60         // NTP synchronization interval in minutes
 
 // ========== PRICES SETTINGS ==========
-const char* pricesIds[] = {"bitcoin", "ethereum"};
+const char *pricesIds[] = {"bitcoin", "ethereum"};
+const char *priceVsCurrency = "usd";
 int pricesIdsLength = 2;
