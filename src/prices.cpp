@@ -4,7 +4,7 @@ PriceResult fetchPrices(WiFiClientSecure *client, HTTPClient *http,
                         const char *ids[], int idsLength,
                         const char *vsCurrency)
 {
-  PriceResult result{false, JsonDocument(), ""};
+  PriceResult result{false, JsonDocument()};
 
   if (!client || !http)
   {

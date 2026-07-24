@@ -107,7 +107,6 @@ void loop()
     }
     else
     {
-      Serial.println("Price fetch error: " + result.errorMsg);
       pricesValid = false;
     }
   }
